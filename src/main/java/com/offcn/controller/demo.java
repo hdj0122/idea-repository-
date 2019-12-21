@@ -1,4 +1,4 @@
 package com.offcn.controller;
 
-public class RightController {
+public class demo {
 }
