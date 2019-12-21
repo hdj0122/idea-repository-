@@ -16,7 +16,7 @@ import java.util.List;
  */
 @Controller
 public class UserController {
-
+    private String name;
     @Autowired
     private UserService userService;
 
