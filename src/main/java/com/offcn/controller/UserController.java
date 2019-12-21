@@ -22,7 +22,7 @@ public class UserController {
 
     @RequestMapping("findAll")
     public String findAll(Model model) {
-        System.out.println("测试修改的提交");
+
         List<User> users = userService.findAll();
         model.addAttribute("users", users);
         return "userList";
